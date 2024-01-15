@@ -31,9 +31,7 @@ return [
     ],
 
     'app' => [
-        'base_url' => env('TMDB_ENDPOINT'),
-        'api' => env('TMDB_APP_KEY'),
-        'lang' => env('TMDB_LANG'),
+        'base_url' => env('APP_NAME'),
     ],
 
 ];
